@@ -25,7 +25,7 @@ namespace RealEstateManagement.Domain.DTOs
                 PhoneNumber = personDTO.phoneNumber,
                 Email = personDTO.email,
                 HouseId = personDTO.houseId,
-                House = personDTO.house,
+                House = personDTO.house
             };
         }
         public static PersonDTO MapToDTO(Person person)

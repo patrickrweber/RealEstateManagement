@@ -10,11 +10,10 @@ namespace RealEstateManagement.Domain.Models
     public class Bill
     {
         public int Id { get; set; }
-        public decimal RentValue { get; set; }
-        public decimal WaterBill { get;set; }
-        public decimal EnergyBill { get; set; }
-        public decimal TotalValue { get; set; }
-        public long WattsSpent { get; set; }
+        public double WaterBill { get;set; }
+        public double EnergyBill { get; set; }
+        public double TotalValue { get; set; }
+        public double WattsSpent { get; set; }
         public DateTime PaidDate { get; set; }
         public int Month { get; set; }
         public int Year { get; set; }

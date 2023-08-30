@@ -15,6 +15,8 @@
         public string? Address { get; set; }
         public string? AdressNumber { get; set; }
 
+        public double RentValue { get; set; }
+
         public virtual ICollection<Bill>? Bills { get; set; }
         public virtual ICollection<Person>? People { get; set; }
     }
