@@ -40,8 +40,7 @@ namespace RealEstateManagement.Infra.Data.Data
                 PaidDate = DateTime.Now,
                 Month = DateTime.Now.Month,
                 Year = DateTime.Now.Year,
-                HouseId = 1,
-                House = house
+                HouseId = house.Id
             };
             modelBuilder.Entity<Bill>().HasData(bill);
 
@@ -53,8 +52,7 @@ namespace RealEstateManagement.Infra.Data.Data
                 Age = 21,
                 PhoneNumber = "47989098585",
                 Email = "patrick@gmail.com",
-                HouseId = 1,
-                House = house
+                HouseId = house.Id
             };
             modelBuilder.Entity<Person>().HasData(person);
 
